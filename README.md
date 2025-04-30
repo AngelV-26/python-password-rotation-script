@@ -26,3 +26,19 @@ vault/backupuser_20240428201103.txt
 - Python scripting for security automation
 - Privileged access management concepts
 - File I/O, randomness, directory handling
+
+
+## 🚀 Next Steps and Enhancement Ideas
+
+Here are some planned improvements and future features:
+
+- 🔐 **Encrypt stored password files** using the `cryptography` library
+- 🧪 **Add unit tests** to validate password generation and file output
+- 📁 **Allow custom username input** via command-line arguments (`argparse`)
+- 📜 **Create a password change log** (e.g., `rotation_log.txt` file with timestamps)
+- 🔄 **Simulate old password deletion** or archiving to reflect rotation lifecycle
+- 🧩 **Integrate with a real PAM solution or API** (e.g., Delinea Secret Server, HashiCorp Vault)
+- 🌐 **Add a simple web interface** using Flask for triggering rotation and viewing the vault contents (for demo use only)
+- 🛠️ **Dockerize the project** for consistent deployment
+
+Pull requests and suggestions are welcome!

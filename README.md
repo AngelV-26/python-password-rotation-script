@@ -1,2 +1,18 @@
-# python-passowrd-rotation-script
-This script automates password generation and simulates storing them in a local folder
+# Python Password Rotation Script
+
+## Overview
+This Python project simulates password rotation for privileged accounts. It generates strong, secure random passwords and stores them inside a simulated vault directory.
+
+## Features
+- Strong password generation using Python’s `secrets` library
+- Auto-creation of a local "vault" directory
+- Timestamped password file generation per user
+- Easy to expand to include encryption or real vault integration
+
+## Usage
+1. Clone or download this repository
+2. Run the script: `python rotate_passwords.py`
+3. Check the `vault/` folder to see the new passwords created
+
+## Example Output
+Files saved:

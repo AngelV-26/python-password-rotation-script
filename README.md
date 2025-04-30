@@ -3,6 +3,9 @@
 ## Overview
 This Python project simulates password rotation for privileged accounts. It generates strong, secure random passwords and stores them inside a simulated vault directory.
 
+
+This project showcases a lightweight but effective approach to password rotation — an essential security practice in PAM (Privileged Access Management). I used Python’s secrets module to generate strong passwords and simulate secure storage by organizing outputs into timestamped vault files. This mimics real-world credential hygiene without relying on an enterprise platform, helping demonstrate both scripting skills and understanding of secure operational workflows.
+
 ## Features
 - Strong password generation using Python’s `secrets` library
 - Auto-creation of a local "vault" directory

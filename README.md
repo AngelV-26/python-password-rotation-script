@@ -16,3 +16,6 @@ This Python project simulates password rotation for privileged accounts. It gene
 
 ## Example Output
 Files saved:
+vault/admin_20240428201100.txt
+vault/dbuser_20240428201102.txt
+vault/backupuser_20240428201103.txt

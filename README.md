@@ -26,7 +26,8 @@ vault/backupuser_20240428201103.txt
 
 
 
-Skills Practiced
+Skills To Focus on related to this Project: 
+
 - Python scripting for security automation
 - Privileged access management concepts
 - File I/O, randomness, directory handling
